@@ -1,0 +1,10 @@
+{% extends 'base.html' %} 
+{% block content %} 
+<div class="card"> 
+	<h2>Search Hotel</h2> 
+	<form action="/search" method="POST"> 
+		<input type="text" name="city" placeholder="Mumbai, Goa, Delhi" required> 
+		<button>Search</button> 
+	</form> 
+</div> 
+{% endblock %}
